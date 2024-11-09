@@ -21,5 +21,10 @@ namespace Repositorio
         {
 
         }
+
+        private void BtnAceptar_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "hola mundo";
+        }
     }
 }
