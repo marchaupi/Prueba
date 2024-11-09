@@ -1,6 +1,6 @@
 ﻿namespace Repositorio
 {
-    partial class Form1
+    partial class FrmPrincipal
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.BtnAceptar = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // BtnAceptar
+            // 
+            this.BtnAceptar.Location = new System.Drawing.Point(367, 391);
+            this.BtnAceptar.Name = "BtnAceptar";
+            this.BtnAceptar.Size = new System.Drawing.Size(192, 62);
+            this.BtnAceptar.TabIndex = 0;
+            this.BtnAceptar.Text = "Aceptar";
+            this.BtnAceptar.UseVisualStyleBackColor = true;
+            // 
+            // FrmPrincipal
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(878, 638);
+            this.Controls.Add(this.BtnAceptar);
+            this.Name = "FrmPrincipal";
+            this.Text = "Principal";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button BtnAceptar;
     }
 }
 
