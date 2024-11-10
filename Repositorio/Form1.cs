@@ -26,5 +26,10 @@ namespace Repositorio
         {
             textBox1.Text = "hola mundo";
         }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+        }
     }
 }
